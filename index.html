@@ -14,17 +14,50 @@
   </head>
   <body>
     <div class="container">
+
       <form id="jobForm">
         <div>
           <label for="fname" class="form-label">Full Name</label>
-          <input type="text" id="fname" class="form-control" />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            value=""
+            placeholder="Enter your Name"
+            class="form-control"
+          />
+        </div>
+        <div>
+          <label for="job" class="form-label">Job Title</label>
+          <input type="text" id="job" name="job" value="Admin" class="form-control" />
         </div>
 
-        <!-- select textarea -->
+        <br />
         <div>
-          <input type="submit" class="btn btn-primary">
+          <input type="submit" value="Post Now" class="btn btn-primary" />
         </div>
       </form>
     </div>
+
+    <script src="main.js"></script>
+
   </body>
 </html>
+
+
+
+
+<!-- 
+        <input type="radio" name="group" id="r1">
+        <input type="radio" name="group" id="r2">
+        <input type="radio" name="group" id="r3"> 
+        
+            <select name="" id="">
+      <option value="">Red</option>
+      <option value="">Green</option>
+      <option value="">Blue</option>
+    </select>
+
+      <textarea></textarea>
+      
+      -->
